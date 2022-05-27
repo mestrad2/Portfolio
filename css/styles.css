@@ -1,0 +1,17 @@
+div {
+    line-height: 1.8em;
+    background: skyblue;
+    border-style: solid;
+}
+
+h1 {
+    color: black;
+}
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+    border-radius: 10px;
+}
