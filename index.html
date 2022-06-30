@@ -9,24 +9,14 @@
 </head>
 
 <body>
-    <!-- 
-	  Directions:
-		1. Create a DIV element to contain the page content.
-		2. Inside your DIV, create an H1 tag that contains your name as the text.
-		3. Below your H1 tag, create an H2 tag that contains the content text, "Software Developer."
-		4. Below your H2 tag, create an HR tag, which will make a horizontal line.
-		5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______.")
-		6. Create an H3 tag that says "My Projects."
-		7. Create a paragraph tag that says "Coming Soon."
-		8. Create an H3 tag that says "About Me."
-		9. Create a paragraph tag that contains the "lorem ipsum" text. HINT: You will need to do a search for this text...it is long! Alternatively, grab a sample from this site: https://generator.lorem-ipsum.info/
-
-		BONUS: Try one of the following ideas if you finish early.
-		  - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/).
-		  - Add another H3 that contains "Contact Me," a paragraph tag containing your email, and a paragraph tag containing your phone number (these can be fake!).
-	 -->
-
     <div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#my-projects">Go to Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
         <h1>Manuel Estrada.</h1>
         <h2>Software Developer.</h2>
         <img alt="Software Developer" src="images/coding-portfolio.jpeg" />
@@ -36,10 +26,10 @@
         <p>My <em>favorite</em> thing about programming is solving problems and making unique solutions in my own way.
         </p>
 
-        <h3>My Projects.</h3>
+        <h3 id="my-projects">My Projects.</h3>
         <p>Coming Soon.</p>
 
-        <h3>About Me.</h3>
+        <h3 id="about">About Me.</h3>
         <p>Lorem ipsum dolor sit amet, no cum sensibus ocurreret theophrastus, eu sea mollis deseruisse, nibh saepe te
             nec. Ut vivendo concludaturque ius, te mea aeque graeci percipitur. Mel epicurei lucilius ne, te quot debet
             putent pri, in nemore legendos est. Sint debet posidonium sed an. Partem accusam voluptua quo eu, nam
@@ -47,7 +37,7 @@
             Eam ludus antiopam laboramus cu. Ius erant quando ut, nec paulo graecis urbanitas an. An iudico everti ius.
             Pri quot probatus an, has ad cetero nostrum accusamus. Ne quaeque electram iudicabit pro.</p>
 
-        <h3>Contact Me.</h3>
+        <h3 id="contact">Contact Me.</h3>
         <p><em>email@gmail.com</em></p>
         <p><em>xxx-xxx-xxxx</em></p>
 

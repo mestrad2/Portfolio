@@ -24,3 +24,16 @@ img {
     margin-right: auto;
     cursor: pointer;
 }
+
+nav {
+    background-color: green;
+}
+
+a:hover {
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
